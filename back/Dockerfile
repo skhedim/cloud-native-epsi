@@ -1,4 +1,5 @@
 FROM docker.io/maven:adoptopenjdk
+LABEL org.opencontainers.image.source https://github.com/skhedim/cloud-native-epsi
 
 COPY pom.xml .
 COPY src ./src
